@@ -17,6 +17,7 @@ function sorting(arrNumber) {
             }
         }
     }
+    return arrNumber
 }
 
 function getTotal(arrNumber) {
@@ -46,4 +47,4 @@ console.log(mostFrequentLargestNumbers([1, 1, 1, 1]));
 //'angka paling besar adalah 1 dan jumlah kemunculan sebanyak 4 kali'
 
 console.log(mostFrequentLargestNumbers([]));
-  //''
+//''
