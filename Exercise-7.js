@@ -11,7 +11,7 @@ Jika input adalah string kosong ('') maka return array kosong
 */
 
 function meleeRangedGrouping(str) {
-    if (str.length == 0) {
+    if (str.length === 0) {
         return []
     } else {
         let result = [
