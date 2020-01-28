@@ -10,6 +10,7 @@ Output yang diharapkan: [ [ <daftar_hero_dengan_tipe_ranged> ], [ <daftar_hero_d
 Jika input adalah string kosong ('') maka return array kosong
 */
 
+
 function meleeRangedGrouping(str) {
     if (str.length === 0) {
         return []

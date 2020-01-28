@@ -7,6 +7,7 @@ Dengan HANYA mengubah code di dalam 2 function yang diberikan (sortingdan getTot
 Dilarang mengubah isi dalam function mostFrequentLargestNumbers!
 */
 
+
 function sorting(arrNumber) {
     for (let i = 0; i < arrNumber.length; i++) {
         for (let j = i + 1; j < arrNumber.length; j++) {
@@ -19,6 +20,7 @@ function sorting(arrNumber) {
     }
     return arrNumber
 }
+
 
 function getTotal(arrNumber) {
     let counter = 0
