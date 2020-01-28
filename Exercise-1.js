@@ -28,7 +28,7 @@ function getTotal(arrNumber) {
             counter++
         }
     }
-    return counter != 0 ? `angka paling besar adalah ${arrNumber[0]} dan jumlah kemunculan sebanyak ${counter} kali` : ''
+    return counter == 0 ? '' : `angka paling besar adalah ${arrNumber[0]} dan jumlah kemunculan sebanyak ${counter} kali`
 }
 
 function mostFrequentLargestNumbers(arrNumber) {
