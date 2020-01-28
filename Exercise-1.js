@@ -20,7 +20,6 @@ function sorting(arrNumber) {
     return arrNumber
 }
 
-
 function getTotal(arrNumber) {
     let counter = 0
     for (let i = 0; i < arrNumber.length; i++) {
